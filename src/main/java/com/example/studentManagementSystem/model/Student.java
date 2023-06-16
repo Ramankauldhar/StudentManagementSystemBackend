@@ -23,12 +23,12 @@ public class Student {
 	private String className;
 	
 	@Column(name = "contact")
-	private Integer contact;
+	private long contact;
 	
 	public Student(){}
 
 	//Generated Constructor
-	public Student(long stuId, String fName, String lName, String email, String className, Integer contact) {
+	public Student(long stuId, String fName, String lName, String email, String className, long contact) {
 		super();
 		this.stuId = stuId;
 		this.fName = fName;
@@ -79,11 +79,11 @@ public class Student {
 		this.className = className;
 	}
 
-	public Integer getContact() {
+	public long getContact() {
 		return contact;
 	}
 
-	public void setContact(Integer contact) {
+	public void setContact(long contact) {
 		this.contact = contact;
 	}
 	

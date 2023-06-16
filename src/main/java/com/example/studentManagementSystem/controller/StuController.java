@@ -13,7 +13,7 @@ import com.example.studentManagementSystem.repository.StudentRepository;
 import com.example.studentManagementSystem.exception.ResourceNotFoundExceptionHandling;
 import com.example.studentManagementSystem.model.Student;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://eclectic-lamington-25be28.netlify.app")
 @RestController
 @RequestMapping("/api/v1/")
 public class StuController {
